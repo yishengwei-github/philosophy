@@ -3,6 +3,7 @@ import recoTheme from "vuepress-theme-reco";
 import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
+  base: process.env.NODE_ENV === 'production' ? '/philosophy/' : '/',
   title: "Know thyself",
   description: "To Sophia",
   bundler: viteBundler(),
