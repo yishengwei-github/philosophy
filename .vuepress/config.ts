@@ -33,6 +33,7 @@ export default defineUserConfig({
       { text: "Home", link: "/" },
       { text: "Overview", link: "/docs/overview"},
       { text: "Philosopher", link: "/docs/philosopher"},
+      { text: "Citation", link: "/docs/citation"},
     ],
     // commentConfig: {
     //   type: 'valine',
