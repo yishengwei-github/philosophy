@@ -18,22 +18,32 @@ export default defineUserConfig({
     lastUpdatedText: "",
     // series 为原 sidebar
     series: {
-      "/docs/theme-reco/": [
-        {
-          text: "module one",
-          children: ["home", "theme"],
-        },
-        {
-          text: "module two",
-          children: ["api", "plugin"],
-        },
+      "/docs/philosopher/": [
+        '苏格拉底',
+        '柏拉图',
+        '亚里士多德',
+        '伊壁鸠鲁',
+        '笛卡尔',
+        '斯宾诺莎',
+        '洛克',
+        '休谟',
+        '贝克莱',
+        '康德',
+        '黑格尔',
+        '谢林',
+        '叔本华',
+        '祁克果',
+        '马克思',
+        '叔本华',
+        '尼采',
+        '维特根斯坦',
+        '萨特'
       ],
     },
     navbar: [
       { text: "Home", link: "/" },
       { text: "Overview", link: "/docs/overview"},
-      { text: "Philosopher", link: "/docs/philosopher"},
-      { text: "Citation", link: "/docs/citation"},
+      { text: "Philosopher", link: "/docs/philosopher/苏格拉底" },
     ],
     // commentConfig: {
     //   type: 'valine',
