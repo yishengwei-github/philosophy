@@ -29,21 +29,24 @@ export default defineUserConfig({
         '休谟',
         '贝克莱',
         '康德',
+        '边沁',
         '黑格尔',
         '谢林',
         '叔本华',
+        '穆勒',
         '祁克果',
         '马克思',
         '叔本华',
         '尼采',
         '维特根斯坦',
-        '萨特'
-      ],
+        '萨特',
+        '诺齐克'
+      ]
     },
     navbar: [
       { text: "Home", link: "/" },
       { text: "Overview", link: "/docs/overview"},
-      { text: "Philosopher", link: "/docs/philosopher/苏格拉底" },
+      { text: "Philosopher", link: "/docs/philosopher/苏格拉底" }
     ],
     // commentConfig: {
     //   type: 'valine',

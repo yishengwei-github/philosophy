@@ -9,7 +9,7 @@ bannerBrand:
   bgImage: '/bg.svg'
   title: Know thyself
   description: A Philosophy Lesson for My Daughter
-  tagline: To Sophia。
+  tagline: To Sophia.
   buttons:
     - { text: Overview, link: '/docs/overview' }
     - { text: Philosopher, link: '/docs/philosopher', type: 'plain' }
