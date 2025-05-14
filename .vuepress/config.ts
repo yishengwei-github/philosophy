@@ -40,6 +40,7 @@ export default defineUserConfig({
         '尼采',
         '维特根斯坦',
         '萨特',
+        '罗尔斯',
         '诺齐克'
       ]
     },
